@@ -20,7 +20,7 @@ button.addEventListener("click", function () {
     if (ageValue === "under") {
         price *= 0.8;
         saleDisplay = "Tariffa under 18"
-    } else if (ageValue === "Over65") {
+    } else if (ageValue === "over65") {
         price *= 0.6;
         saleDisplay = "Tariffa Over 65"
     }
@@ -30,6 +30,7 @@ button.addEventListener("click", function () {
     passenger.innerHTML = nameValue;
     sale.innerHTML = saleDisplay;
     train.innerHTML = trainNumber;
+    nTrain.innerHTML = "28179"
     console.log(train);
     priceDisplay.innerHTML = price;
     console.log(price);
