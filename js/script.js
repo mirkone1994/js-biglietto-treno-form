@@ -30,7 +30,7 @@ button.addEventListener("click", function () {
     passenger.innerHTML = nameValue;
     sale.innerHTML = saleDisplay;
     train.innerHTML = trainNumber;
-    nTrain.innerHTML = "28179"
+    nTrain.innerHTML = Math.floor(Math.random() * (99999 - 10000 +1) + 10000);
     console.log(train);
     priceDisplay.innerHTML = price;
     console.log(price);
